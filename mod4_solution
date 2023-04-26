@@ -1,0 +1,10 @@
+var names=["archi","om","haripriya",'john'];
+for(var i=0;i<names.length;i++){
+  var name=names[i];
+  if(names[i].charAt(0).toLowerCase()=='j'){
+      console.log("Goodbye"+" "+names[i]);
+  }
+  else{
+      console.log("hello"+" "+names[i])
+  }
+}
